@@ -5,7 +5,9 @@ void setup() {
   // Make a new instance of a PImage by loading an image file
   img = loadImage("myQR.png");
 }
-
+void mousePressed() { 
+link("https://github.com/MariaSiafali117");
+}
 void draw() {
   background(0);
   // The image() function displays the image at a location
