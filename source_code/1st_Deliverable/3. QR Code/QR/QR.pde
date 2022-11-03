@@ -16,6 +16,7 @@ void setup() {
 void decoderEvent(Decoder decoder) {
   String statusMsg = decoder.getDecodedString(); 
   println(statusMsg);
+  link(statusMsg);
 }
 
 void draw() {
