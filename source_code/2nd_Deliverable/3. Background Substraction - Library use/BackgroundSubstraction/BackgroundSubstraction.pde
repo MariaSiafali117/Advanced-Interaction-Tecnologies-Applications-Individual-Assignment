@@ -33,7 +33,7 @@ void draw() {
 
   noFill();
   stroke(75, 3, 3);
-  strokeWeight(3);
+  strokeWeight(3); 
   for (Contour contour : opencv.findContours()) {
     contour.draw();
   }
