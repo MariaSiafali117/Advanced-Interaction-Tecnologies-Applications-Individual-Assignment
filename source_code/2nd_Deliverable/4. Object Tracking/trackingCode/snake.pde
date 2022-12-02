@@ -34,7 +34,7 @@ class Snake {
       // Draw an ellipse for each element in the arrays. 
       // Color and size are tied to the loop's counter: i.
       stroke(0);
-      fill(255-i*5);
+      fill(trackColor);
       ellipse(xpos[i],ypos[i],i,i); 
     }
 
