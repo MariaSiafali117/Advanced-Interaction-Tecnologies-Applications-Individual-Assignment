@@ -16,11 +16,11 @@ PImage backgroundImage;
 Movie backgroundReplace;
 
 // How different must a pixel be to be a foreground pixel
-float threshold = 20;
+float threshold = 50;
 
 void setup() {
-  size(1280, 720);
-  video = new Capture(this, width, height, 40);
+  size(1620, 1080);
+  video = new Capture(this, width, height, 30);
   video.start();
   // Create an empty image the same size as the video
   backgroundImage = createImage(video.width, video.height, RGB);
@@ -38,11 +38,14 @@ void movieEvent(Movie backgroundReplace){
 }
 
 void draw() {
+  
+  threshold = map(mouseX, 0, width, 5, 50);
+  image (backgroundReplace, 0, 0, width, height);
   // We are looking at the video's pixels, the memorized backgroundImage's pixels, as well as accessing the display pixels. 
   // So we must loadPixels() for all!
   loadPixels();
   video.loadPixels(); 
-  backgroundImage.loadPixels();
+  backgroundReplace.loadPixels();
 
   // Begin loop to walk through every pixel
   for (int x = 0; x < video.width; x ++ ) {
@@ -64,12 +67,14 @@ void draw() {
 
       // Step 5, Is the foreground color different from the background color
       if (diff > threshold) {
+         pixels[loc] = fgColor;
         // If so, display the foreground color
-        pixels[loc] = fgColor;
+        
       } else {
         // If not, display green
-        
-        pixels[loc] = backgroundReplace.pixels[loc]; // We could choose to replace the background pixels with something other than the color green!
+        pixels[loc] = backgroundReplace.pixels[loc];
+       
+         // We could choose to replace the background pixels with something other than the color green!
       }
     }
   }
