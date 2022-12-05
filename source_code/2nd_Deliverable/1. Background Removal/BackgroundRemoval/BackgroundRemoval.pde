@@ -13,23 +13,28 @@ Capture video;
 // Saved background
 PImage backgroundImage;
 
-PImage backgroundReplace;
+Movie backgroundReplace;
 
 // How different must a pixel be to be a foreground pixel
 float threshold = 20;
 
 void setup() {
-  size(500, 500);
-  video = new Capture(this, width, height);
+  size(1280, 720);
+  video = new Capture(this, width, height, 40);
   video.start();
   // Create an empty image the same size as the video
   backgroundImage = createImage(video.width, video.height, RGB);
-  backgroundReplace = loadImage("texture.jpg");
+  backgroundReplace = new Movie (this, "sunset.mp4");
+  backgroundReplace.loop();
 }
 
 void captureEvent(Capture video) {
   // Read image from the camera
   video.read();
+}
+
+void movieEvent(Movie backgroundReplace){
+  backgroundReplace.read();
 }
 
 void draw() {
@@ -63,6 +68,7 @@ void draw() {
         pixels[loc] = fgColor;
       } else {
         // If not, display green
+        
         pixels[loc] = backgroundReplace.pixels[loc]; // We could choose to replace the background pixels with something other than the color green!
       }
     }
