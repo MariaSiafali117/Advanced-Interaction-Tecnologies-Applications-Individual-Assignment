@@ -141,6 +141,8 @@
 # 3rd Deliverable 
 
 
+ Για το τρίτο παραδοτέο αρχικά κατέβασα τις βιβλιοθήκες και την Java Runtime Enviroment από τα λινκ που είναι αναρτημένα στις οδηγίες. Στην συνέχεια μετέφερα το αρχείο tuio από τον φάκελο tuio processing στον φάκελο libraries του processing. 
+
 # Bonus 
 
 
