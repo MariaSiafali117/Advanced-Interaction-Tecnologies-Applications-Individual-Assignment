@@ -140,20 +140,45 @@
 
 # 3rd Deliverable 
 
+  ππου τα επιλέγω. Όρισα ως πρώτο κουτάκι το 0 το οποίο θα εμφανίζει την εικόνα μου. Αν το 0 δεν βρίσκεται μέσα στον κύκλο κανένα από τα άλλα κουτάκια δεν μπορεί να λειτουργήσει
+ Για το τρίτο παραδοτέο αρχικά κατέβασα τις βιβλιοθήκες και την Java Runtime Enviroment από τα λινκ που είναι αναρτημένα στις οδηγίες. Στην συνέχεια μετέφερα το αρχείο tuio από τον φάκελο tuio processing στον φάκελο libraries του processing. Άνοιξα το παράδειγμα στο processing και επεξεργάστηκα τον κώδικα ώστε να δώσω εντολές στα κουτάκια της java enviroment. Για τιε εντολές βοηθήθηκα από το κεφάλαιο 15-3  του βιβλίου του Shiffman, Daniel - Learning Processing, Second Edition. Έβαλα στον κώδικα μου μία εικόνα της επιλογής μου ώστε να αλλάζει ανάλογα με τις εντολές που περιέχουν τα κουτάκια κάθε φορά ππου τα επιλέγω. Όρισα ως πρώτο κουτάκι το 0 το οποίο θα εμφανίζει την εικόνα μου. Αν το 0 δεν βρίσκεται μέσα στον κύκλο κανένα από τα άλλα κουτάκια δεν μπορεί να λειτουργήσει  καθώς οι εντολές που περιέχουν μορφωποιούν την εικόνα που εμφανίζεται. Συνολικά ενεργοποίησα 4 κουτάκια που θα αλλάζουν την εικόνα μου.
 
- Για το τρίτο παραδοτέο αρχικά κατέβασα τις βιβλιοθήκες και την Java Runtime Enviroment από τα λινκ που είναι αναρτημένα στις οδηγίες. Στην συνέχεια μετέφερα το αρχείο tuio από τον φάκελο tuio processing στον φάκελο libraries του processing. 
 
 ![Screenshot (88)](https://user-images.githubusercontent.com/101007425/212210342-b9322295-95f4-4ace-8e77-02d6ffb83c3e.png)
+
+
+<li> Το πρώτο κουτάκι είναι το 0 και εμφανίζει την εικόνα μου. </li>  
+
 ![Screenshot (78)](https://user-images.githubusercontent.com/101007425/212210346-db80ef64-bda7-4d5a-8623-7cba3d65b0de.png)
+
+
+<li> Το κουτάκι νούμερο 1 ξεθωριάζει το χρώμα της εικόνας μου. </li>
+
 ![Screenshot (79)](https://user-images.githubusercontent.com/101007425/212210348-169ae217-33b6-4d7d-adf1-792d77c15912.png)
-![Screenshot (80)](https://user-images.githubusercontent.com/101007425/212210351-d2f708aa-ac8e-4556-9200-5ea992956e1d.png)
+
+<li> Το κουτάκι νούμερο 2, πατώντας  δεξί κλικ και περιστρέφοντάς το αλλάζει το χρώμα της εικόνας σε αποχρώσεις του μπλε. </li>
+
+
 ![Screenshot (81)](https://user-images.githubusercontent.com/101007425/212210353-014c7440-e7d9-4990-b501-08b084c7f516.png)
+
+![Screenshot (80)](https://user-images.githubusercontent.com/101007425/212210351-d2f708aa-ac8e-4556-9200-5ea992956e1d.png)
+
+
+<li> Το κουτάκι νούμερο 3, πατώντας δεζί κλικ και περιστρέφοντας το κάνει ζουμ την εικόνα </li>
+
 ![Screenshot (82)](https://user-images.githubusercontent.com/101007425/212210354-d108d508-7350-4c7f-b964-d5e9f32c57f8.png)
 ![Screenshot (83)](https://user-images.githubusercontent.com/101007425/212210358-0c3c6a6c-8365-4597-8e98-60a554813e55.png)
 ![Screenshot (84)](https://user-images.githubusercontent.com/101007425/212210361-bb4fcdfa-c5f3-431b-8882-a4202ea7af56.png)
+
+
+<li> Το κουτάκι νούμερο 3, πατώντας δεζί κλικ και περιστρέφοντας περιστρέφει την εικόνα </li>
+
+
 ![Screenshot (85)](https://user-images.githubusercontent.com/101007425/212210363-139a98a4-6208-4bca-af09-85dc4d4ba4c3.png)
+
+
 ![Screenshot (86)](https://user-images.githubusercontent.com/101007425/212210364-39f1ba24-8e0b-4b7e-9b12-d28289de7e6b.png)
-![Screenshot (87)](https://user-images.githubusercontent.com/101007425/212210367-a9f0dff2-dfa4-46fc-9f1a-a325d1fd9fe7.png)
+
 
 
 # Bonus 
